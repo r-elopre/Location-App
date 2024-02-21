@@ -47,7 +47,6 @@ fun MyApp(){
     val locationUtils = LocationUtils(context)
     LocationDisplay(locationUtils = locationUtils, context = context )
 }
-    `
 @Composable
 fun LocationDisplay(
     locationUtils: LocationUtils,
